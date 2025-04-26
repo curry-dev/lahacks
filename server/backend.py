@@ -34,24 +34,26 @@ def save_pdf_to_text():
     out.close()
 
 def get_text_to_speech(gemini_resp):
-    # with open("assets/text_to_speech.mp3", "wb") as f:
-    #     for entry in gemini_resp:
-    #         for speaker, text in entry.items():
-    #             voice = "Rachel" if speaker == "Person1" else "Sam"
-    #         audio_generator = elevenlabs_client.generate(text=text, voice=voice, model="eleven_monolingual_v1")
-    #         for chunk in audio_generator:
-    #             f.write(chunk)
-    speech_file_path = "assets/text_to_speech.mp3"
-    model = "playai-tts"
-    voice = "Fritz-PlayAI"
-    text = gemini_resp
-    response_format = "mp3"
-    groq_resp = groq_client.audio.speech.create(model=model, voice=voice, input=text, response_format=response_format)
-    groq_resp.write_to_file(speech_file_path)
+    split_audios = []
+    for idx, dialogue in enumerate(gemini_resp):
+        speaker, text = list(dialogue.items())[0]
+        voice = 'Fritz-PlayAI' if speaker == "Person1" else 'Arista-PlayAI'
+        groq_resp = groq_client.audio.speech.create(model="playai-tts", voice=voice, input=text, response_format="mp3")
+        audio_bytes = groq_resp.read()
+        audio_base64 = base64.b64encode(audio_bytes).decode('utf-8')
+        split_audios.append({"speaker": speaker, "text": text, "audio_base64": audio_base64})
+    return split_audios
+
+def get_text_to_speech_thread(gemini_resp, result_container):
+    try:
+        result = get_text_to_speech(gemini_resp)
+        result_container.append(result)
+    except Exception as e:
+        print("Error in get_text_to_speech_thread:", e)
+        result_container.append([])  # to avoid crash
 
 @app.route('/getConversation', methods=['GET', 'POST'])
 def getConversation():
-    speech_generated = 'False'
     fetched_prompt = request.json.get('prompt', '')
     fetched_mode = request.json.get('mode', '')
 
@@ -75,13 +77,21 @@ def getConversation():
     gemini_resp = json.loads(gemini_resp)
 
     # text -> audio
-    threading.Thread(target=get_text_to_speech, args=(gemini_resp,)).start()
-    speech_generated = 'True'
+    # threading.Thread(target=get_text_to_speech, args=(gemini_resp,)).start()
+    result_container = []
+    thread = threading.Thread(target=get_text_to_speech_thread, args=(gemini_resp, result_container))
+    thread.start()
+    thread.join()  # IMPORTANT: wait for the thread to finish
+    split_audios = result_container[0]
     
     # audio -> text : for conversation mode only
 
+    if not split_audios:
+        return jsonify({'error': 'Failed to generate audio'}), 500
+
+
     # research_paper = open("../public/assets/pdf_to_text.txt").read()
-    return jsonify({'conversation': gemini_resp, 'speech_generated': speech_generated})
+    return jsonify({'conversation': gemini_resp, 'speech': split_audios})
 
 
 

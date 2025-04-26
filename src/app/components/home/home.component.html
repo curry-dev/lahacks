@@ -12,8 +12,8 @@
         <div class="col">
             <div class="upload-container">
                 <p><i class="fa-regular fa-file-lines"></i> Upload a PDF</p>
-                <button class="btn-3d" (click)="fileInput.click()">Upload</button>
-                <input type="file" #fileInput (change)="onFileSelected($event)" style="display:none;"/>
+                <!-- <button class="btn-3d" (click)="fileInput.click()">Upload</button> -->
+                <!-- <input type="file" #fileInput (change)="onFileSelected($event)" style="display:none;"/> -->
                 <!-- <button class="btn-3d">Upload</button> -->
             </div>
               
@@ -42,7 +42,6 @@
 
     <div class="row mt-4 text-center g-2">
         <div class="col d-flex flex-wrap justify-content-center gap-3">
-            <!-- <button id="generate-conversation-btn" (click)="getConversation('explain binary tree')">Generate the Conversation!</button> -->
              <span id="generate-conversation-btn" (click)="getConversation('explain binary trees', 'podcast')">Generate the conversation!</span>
         </div>
     </div>
@@ -56,9 +55,12 @@
             {{ getSpeaker(line) }}: {{ getSpeech(line) }}
             <hr>
         </div> -->
-        <audio controls>
+        <div>{{ text }}</div>
+        <!-- <span (click)="playNextClip()">Start Conversation</span> -->
+
+        <!-- <audio controls>
             <source src="assets/text_to_speech.mp3" type="audio/mpeg">
-        </audio>
+        </audio> -->
     </div>
 
     <!-- <div class="row mt-4 text-center g-2">
