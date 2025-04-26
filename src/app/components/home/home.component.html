@@ -1,0 +1,67 @@
+<div class="container-fluid d-flex flex-column justify-content-center align-items-center home-container">
+
+    <div class="row text-center">
+        <div class="col d-flex align-items-center justify-content-center hi-name">
+            <i class="fa fa-brain" style="color: pink;"></i> make studying *less* boring <i class="fa-regular fa-comment" style="color: #F9A826"></i>
+        </div>
+    </div>
+
+    <div class="row mt-4 text-center g-2">
+        <div class="col">
+            <div>
+                <p><i class="fa-regular fa-file-lines"></i> Upload a PDF</p>
+                <button class="btn-3d">Upload</button>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <p>Ask something</p>
+                <input id="ask-something-input" type="text" class="form-control" placeholder="_________________" />
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4 text-center">
+        <div class="col d-flex flex-wrap justify-content-center gap-3">
+            <mat-form-field appearance="fill" class="opaque-background">
+                <mat-label>Choose mode</mat-label>
+                <mat-select matNativeControl required>
+                    <mat-option value="fiveyo">Explain like a 5yo</mat-option>
+                    <mat-option value="roleplay">Einstein and Trump explain</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div class="row mt-4 text-center g-2">
+        <div class="col d-flex flex-wrap justify-content-center gap-3">
+            <!-- <button id="generate-conversation-btn" (click)="getConversation('explain binary tree', $event)">Generate the Conversation!</button> -->
+             <span id="generate-conversation-btn" (click)="getConversation('explain binary trees', $event)">Generate the conversation</span>
+        </div>
+    </div>
+
+    <div class="row mt-4 text-center" id="audio-box">
+        <div class="col d-flex flex-wrap justify-content-center gap-3">
+            <img src="assets/person1.png" alt="person1" id="person-img1" />
+            <img src="assets/person2.png" alt="person2" id="person-img2" />
+        </div>
+        <!-- <audio controls>
+            <source src="assets/text_to_speech.mp3" type="audio/mpeg">
+        </audio> -->
+    </div>
+
+    <div class="row mt-4 text-center g-2">
+        <div class="col">
+            <div>
+                <button class="btn-3d"><i class="fa fa-arrow-down" style="text-decoration: underline;"></i> Download Audio</button>
+            </div>
+        </div>
+        <div class="col">
+            <div>
+                <button class="btn-3d">Go Again</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+  
