@@ -12,6 +12,7 @@ from elevenlabs import VoiceSettings
 import json
 import threading
 import io
+import base64
 
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": ["http://localhost:4200", "http://127.0.0.1:4200"], "methods": ["GET", "POST", "OPTIONS"]}}, allow_headers=["Access-Control-Allow-Methods", "Access-Control-Allow-Origin", "Content-Type", "Access-Control-Allow-Headers"], supports_credentials=True)
@@ -33,28 +34,39 @@ def save_pdf_to_text():
     out.close()
 
 def get_text_to_speech(gemini_resp):
-    try:
-        with open("assets/text_to_speech.mp3", "wb") as f:
-            for entry in gemini_resp:
-                for speaker, text in entry.items():
-                    voice = "Rachel" if speaker == "Person1" else "Sam"
-                audio_generator = elevenlabs_client.generate(text=text, voice=voice, model="eleven_monolingual_v1")
-                for chunk in audio_generator:
-                    f.write(chunk)
-        speech_generated = 'True'
-    except Exception as e:
-        print(f"Error in get_text_to_speech thread: {e}")
+    # with open("assets/text_to_speech.mp3", "wb") as f:
+    #     for entry in gemini_resp:
+    #         for speaker, text in entry.items():
+    #             voice = "Rachel" if speaker == "Person1" else "Sam"
+    #         audio_generator = elevenlabs_client.generate(text=text, voice=voice, model="eleven_monolingual_v1")
+    #         for chunk in audio_generator:
+    #             f.write(chunk)
+    speech_file_path = "assets/text_to_speech.mp3"
+    model = "playai-tts"
+    voice = "Fritz-PlayAI"
+    text = gemini_resp
+    response_format = "mp3"
+    groq_resp = groq_client.audio.speech.create(model=model, voice=voice, input=text, response_format=response_format)
+    groq_resp.write_to_file(speech_file_path)
 
 @app.route('/getConversation', methods=['GET', 'POST'])
 def getConversation():
     speech_generated = 'False'
-
-    # pdf -> text
-    # threading.Thread(target=save_pdf_to_text).start()
+    fetched_prompt = request.json.get('prompt', '')
+    fetched_mode = request.json.get('mode', '')
 
     # ai : get conversation
-    fetched_prompt = request.json.get('prompt', '')
-    additional_prompt = 'Give me a conversation between two people explaining the concept, like a podcast. Skip the extra dialogues. Stick to explaining the concept. Keep it short. Give the response in this format: [{"Person1": "text"}, {"Person2": "text"}, {"Person1": "text"}, ...]. Dont format any text. No bold, nothing. Dont use forward or backward slashes anywhere. Dont use quotes anywhere. No punctuation except comma, fullstop, exclaimatory mark and question mark. Give me plain text only. The request is: '
+    more_prompt = 'Make it a casual conversation.'  # default : podcast
+    if fetched_mode == 'fiveyo':
+        more_prompt = 'Explain the concept to a 5 year old.'
+    if fetched_mode == 'funny':
+        more_prompt = 'Make it funny. The conversation should be funny.'
+    if fetched_mode == 'strict':
+        more_prompt = 'Make it strict. The conversation should be strict.'
+    additional_prompt = f'Give me a conversation between two people explaining the concept, like a podcast. Skip the extra dialogues. Stick to explaining the concept. Keep it short. Give the response in this format: [{{"Person1": "text"}}, {{"Person2": "text"}}, {{"Person1": "text"}}, ...]. {more_prompt} Dont format any text. No bold, nothing. Dont use forward or backward slashes anywhere. Dont use quotes anywhere. No punctuation except comma, fullstop, exclaimatory mark and question mark. Give me plain text only. The request is: '
+    if fetched_mode == 'pdf':
+        threading.Thread(target=save_pdf_to_text).start()
+        additional_prompt = 'Summarize the pdf in a conversation between two people explaining the concept, like a podcast. Skip the extra dialogues. Stick to explaining the concept. Keep it short. Give the response in this format: [{"Person1": "text"}, {"Person2": "text"}, {"Person1": "text"}, ...]. Dont format any text. No bold, nothing. Dont use forward or backward slashes anywhere. Dont use quotes anywhere. No punctuation except comma, fullstop, exclaimatory mark and question mark. Give me plain text only.'
     gemini_resp = gemini_client.models.generate_content(
         model = "gemini-2.0-flash",
         contents = additional_prompt + fetched_prompt
@@ -62,22 +74,10 @@ def getConversation():
     gemini_resp = (gemini_resp.text).replace('\n', '')
     gemini_resp = json.loads(gemini_resp)
 
-    # text -> audio : for podcast
+    # text -> audio
     threading.Thread(target=get_text_to_speech, args=(gemini_resp,)).start()
-
-    # speech_file_path = "speech.wav" 
-    # model = "playai-tts"
-    # voice = "Fritz-PlayAI"
-    # text = gemini_resp.text
-    # response_format = "wav"
-    # groq_resp = groq_client.audio.speech.create(
-    #     model=model,
-    #     voice=voice,
-    #     input=text,
-    #     response_format=response_format
-    # )
-    # groq_resp.write_to_file(speech_file_path)
-
+    speech_generated = 'True'
+    
     # audio -> text : for conversation mode only
 
     # research_paper = open("../public/assets/pdf_to_text.txt").read()

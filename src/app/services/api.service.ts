@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class ApiService {
   constructor(private _http: HttpClient) { }
 
-  getConversation(prompt: string) {
-    return this._http.post<{ conversation: string[], speech_generated: string }>('http://127.0.0.1:5000/getConversation', { prompt: prompt });
+  getConversation(prompt: string, mode: string) {
+    return this._http.post<{ conversation: string[], speech_generated: string }>('http://127.0.0.1:5000/getConversation', { prompt: prompt, mode: mode });
   }
 }
