@@ -1,9 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, PLATFORM_ID, Inject } from '@angular/core';
 import { MatSelectModule } from '@angular/material/select';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ApiService } from '../../services/api.service';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { isPlatformBrowser } from '@angular/common';
 
 interface Clip {
   audio_base64: string;
@@ -14,12 +16,15 @@ interface Clip {
 @Component({
   selector: 'app-home',
   standalone: true,
-  providers: [ApiService],
+  providers: [
+    ApiService
+  ],
   imports: [
     MatSelectModule,
     FontAwesomeModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
@@ -31,12 +36,28 @@ export class HomeComponent implements OnInit {
   conversation: any = [];
   clips: Clip[] = [];
   currentClip: number = 0;
-  audio: HTMLAudioElement = new Audio();
+  audio!: HTMLAudioElement;
   text: string = '';
+  speaker: string = '';
+  isLoading: boolean = false;
+  isMouthOpen1: boolean = false;
+  isMouthOpen2: boolean = false;
+  imgpath1: string = 'assets/person1-mclose.png';
+  imgpath2: string = 'assets/person2-mclose.png';
 
-  constructor(private _apiservice: ApiService) {}
+  userQuestion: string = '';
+  selectedMode: string = 'podcast';
+
+  mouthInterval1: NodeJS.Timeout | undefined = undefined;
+  mouthInterval2: NodeJS.Timeout | undefined = undefined;
+
+  constructor(
+    private _apiservice: ApiService, 
+    @Inject(PLATFORM_ID) private platformId: Object
+  ) {}
 
   getConversation(prompt: string, mode: string) {
+    this.isLoading = true;
     console.log("Submitted");
     this._apiservice.getConversation(prompt, mode).subscribe(res => {
       this.conversation = res.conversation;
@@ -51,6 +72,7 @@ export class HomeComponent implements OnInit {
       } else {
         console.error('Error: res.speech is not a valid array or is undefined.');
       }
+      this.isLoading = false;
     });
   }
 
@@ -69,13 +91,19 @@ export class HomeComponent implements OnInit {
         const blob = new Blob([bytes], { type: 'audio/mp3' });
         const blobUrl = URL.createObjectURL(blob);
         this.audio.src = blobUrl;
+        isPlatformBrowser(this.platformId) ? this.audio.src = blobUrl : null;
 
         // this.audio.src = clip.audio_base64;
         this.text = clip.text;
+        this.speaker = clip.speaker.toLowerCase();
+        if (this.speaker == 'person1') { this.mouthInterval1 = setInterval(() => this.toggleMouth1(), 100); }
+        if (this.speaker == 'person2') { this.mouthInterval2 = setInterval(() => this.toggleMouth2(), 100); }
         this.audio.play();
 
         // Move to the next clip when current clip ends
         this.audio.onended = () => {
+          if (this.speaker == 'person1') { clearInterval(this.mouthInterval1); }
+          if (this.speaker == 'person2') { clearInterval(this.mouthInterval2); }
           this.currentClip += 1;
           this.playNextClip();
         };
@@ -86,6 +114,9 @@ export class HomeComponent implements OnInit {
       }
     } else {
       console.log('All clips played.');
+      this.text = 'fin.';
+      clearInterval(this.mouthInterval1);
+      clearInterval(this.mouthInterval2);
     }
   }
 
@@ -106,7 +137,34 @@ export class HomeComponent implements OnInit {
     return line[this.getSpeaker(line)];
   }
 
+  toggleMouth1() {
+    if (this.isMouthOpen1) {
+      this.imgpath1 = 'assets/person1-mclose.png';
+    } else {
+      this.imgpath1 = 'assets/person1-mopen.png';
+    }
+    this.isMouthOpen1 = !this.isMouthOpen1
+  }
+
+  toggleMouth2() {
+    if (this.isMouthOpen2) {
+      this.imgpath2 = 'assets/person2-mclose.png';
+    } else {
+      this.imgpath2 = 'assets/person2-mopen.png';
+    }
+    this.isMouthOpen2 = !this.isMouthOpen2
+  }
+
   ngOnInit() {
-    // this.getConversation(this.prompt, this.mode);
+    if (isPlatformBrowser(this.platformId)) {
+      console.log("REACHED Platform Browser")
+      this.audio = new Audio();
+      console.log("Initialised audio")
+      this.mouthInterval1 = setInterval(this.toggleMouth1, 100);
+      this.mouthInterval2 = setInterval(this.toggleMouth2, 100);
+      
+    } else {
+      // console.error('Audio API is not available in this environment.');
+    }
   }
 }
