@@ -1,4 +1,7 @@
 body {
     background-color: #FFF9F0;
+    background-image: url('/assets/bg2.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #1E3557;
 }

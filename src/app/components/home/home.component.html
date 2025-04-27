@@ -2,13 +2,13 @@
 
     <div class="row text-center">
         <div class="col d-flex align-items-center justify-content-center hi-name">
-            <img src="assets/brain.png" /> 
-            BUDDY PLEASE STUDY
-            <img src="assets/bubble.png" />
+            <img src="assets/brain.png" style="height:70px" /> 
+            &nbsp;BUDDY PLEASE STUDY&nbsp;
+            <img src="assets/bow.png" style="height:70px" />
         </div>
     </div>
 
-    <div class="row mt-4 text-center g-2">
+    <div class="row mt-2 text-center g-2">
         <div class="col">
             <div class="upload-container">
                 <p><i class="fa-regular fa-file-lines"></i> Upload a PDF</p>
@@ -25,7 +25,7 @@
         </div>
     </div>
 
-    <div class="row mt-4 text-center">
+    <div class="row mt-2 text-center">
         <div class="col d-flex flex-wrap justify-content-center gap-3">
             <mat-form-field appearance="fill" class="opaque-background">
                 <mat-label>Choose mode</mat-label>
@@ -40,13 +40,13 @@
         </div>
     </div>
 
-    <div class="row mt-2 text-center g-2">
+    <div class="row text-center g-2">
         <div class="col d-flex flex-wrap justify-content-center gap-3">
              <span id="generate-conversation-btn" (click)="getConversation(prompt, mode)">Generate the conversation!</span>
         </div>
     </div>
 
-    <div class="row mt-4 text-center" id="audio-box">
+    <div class="row mt-3 text-center" id="audio-box">
         <div class="col d-flex flex-wrap justify-content-center gap-3">
             <img [src]="imgpath1" alt="person1" id="person-img1">
             <img [src]="imgpath2" alt="person2" id="person-img2">
@@ -55,9 +55,9 @@
         <div [ngStyle]="{ color: speaker === 'person1' ? '#40c6bc' : '#c2b0c6' }">{{ text }}</div>
     </div>
 
-    <div class="row mt-4 text-center g-2">
+    <div class="row mt-2 text-center g-2">
         <div class="col">
-            <button class="btn-3d">2x</button>
+            <button class="btn-3d" style="display:none;">2x</button>
         </div>
         <div class="col">
             <button class="btn-3d" (click)="sayAgain()">Say Again</button>

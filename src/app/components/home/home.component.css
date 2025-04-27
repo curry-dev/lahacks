@@ -9,6 +9,10 @@
   font-family: "Jua", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+  /* background-color: #FFF9F0;
+  padding: 20px;
+  border-radius: 20px; */
 }
 
 .home-container .row,
@@ -33,7 +37,7 @@
 }
 
 #audio-box {
-  padding: 50px 0;
+  padding: 20px 0;
   background-color: #FFF5D9;
   border: 2.5px solid rgb(189, 189, 189);
   border-radius: 15px;
@@ -79,6 +83,7 @@
 #person-img1, #person-img2 {
   height: 150px;
   width: auto;
+  margin-bottom: 10px;
 }
 
 #person-img1 {
