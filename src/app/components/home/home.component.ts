@@ -31,8 +31,8 @@ interface Clip {
 })
 
 export class HomeComponent implements OnInit {
-  prompt: string = '';
-  mode: string = 'podcast';
+  prompt: string = 'explain bst';
+  mode: string = 'fiveyo';
   conversation: any = [];
   clips: Clip[] = [];
   currentClip: number = 0;
@@ -44,36 +44,40 @@ export class HomeComponent implements OnInit {
   isMouthOpen2: boolean = false;
   imgpath1: string = 'assets/person1-mclose.png';
   imgpath2: string = 'assets/person2-mclose.png';
-
-  userQuestion: string = '';
-  selectedMode: string = 'podcast';
-
   mouthInterval1: NodeJS.Timeout | undefined = undefined;
   mouthInterval2: NodeJS.Timeout | undefined = undefined;
-
+  gemini_response: any;
   constructor(
     private _apiservice: ApiService, 
     @Inject(PLATFORM_ID) private platformId: Object
   ) {}
 
+  repeat(res: any) {
+    if (res.speech && Array.isArray(res.speech)) {
+      this.clips = res.speech.map((clip: any) => ({
+        audio_base64: clip.audio_base64 || '',
+        text: clip.text || '',
+        speaker: clip.speaker || ''
+      }));
+      this.playNextClip();
+    } else {
+      console.error('Error: res.speech is not a valid array or is undefined.');
+    }
+  }
+
   getConversation(prompt: string, mode: string) {
     this.isLoading = true;
-    console.log("Submitted");
     this._apiservice.getConversation(prompt, mode).subscribe(res => {
+      this.gemini_response = res
       this.conversation = res.conversation;
-      if (res.speech && Array.isArray(res.speech)) {
-        this.clips = res.speech.map((clip: any) => ({
-          audio_base64: clip.audio_base64 || '',
-          text: clip.text || '',
-          speaker: clip.speaker || ''
-        }));
-        console.log('Clips array after mapping:', this.clips);
-        this.playNextClip();
-      } else {
-        console.error('Error: res.speech is not a valid array or is undefined.');
-      }
+      this.repeat(res)
       this.isLoading = false;
     });
+  }
+
+  sayAgain() {
+    this.currentClip = 0;
+    this.repeat(this.gemini_response);
   }
 
   playNextClip() {
@@ -120,13 +124,14 @@ export class HomeComponent implements OnInit {
     }
   }
 
-  onFileSelected(event: any): void {
+  onFileSelected(mode: string, event: any): void {
     const file = event.target.files[0];
     const formData = new FormData();
     formData.append('file', file);
     console.log('File selected: ', formData);
 
-    this.getConversation(this.prompt, 'pdf');
+    this.prompt = 'pdf';
+    this.getConversation(this.prompt, mode);
   }
 
   getSpeaker(line: any): string {

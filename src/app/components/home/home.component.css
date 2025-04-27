@@ -111,3 +111,42 @@ img {
   width: auto;
 }
 
+
+
+/* Customize the mat-form-field (the surrounding container of mat-select) */
+mat-form-field.opaque-background {
+  border-radius: 8px; 
+  padding: 5px;
+}
+
+mat-select .mat-select-value {
+  color: #333;
+}
+
+mat-form-field.mat-focused .mat-select {
+  background-color: #e0e0e0 !important;
+  border-color: #6200ea !important;
+}
+
+mat-option {
+  color: #333;
+}
+
+mat-option:hover {
+  background-color: #6200ea !important;
+  color: white !important;
+}
+
+.mat-select-panel {
+  background-color: #f0f0f0 !important;
+}
+
+.mat-option:hover {
+  background-color: #6200ea !important;
+  color: white !important;
+}
+
+.mat-option {
+  background-color: #6200ea !important;
+  color: white !important;
+}

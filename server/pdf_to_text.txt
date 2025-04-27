@@ -1,0 +1,577 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/366390022
+Simple Random Sampling
+Article · December 2022
+DOI: 10.22034/ijels.2022.162982
+CITATIONS READS
+195 187,974
+3 authors:
+Shagofah Noor Omid Tajik
+Herat University University of Technology Malaysia
+6 PUBLICATIONS 383 CITATIONS 10 PUBLICATIONS 380 CITATIONS
+SEE PROFILE SEE PROFILE
+Jawad Golzar
+Herat University
+19 PUBLICATIONS 526 CITATIONS
+SEE PROFILE
+All content following this page was uploaded by Jawad Golzar on 18 December 2022.
+The user has requested enhancement of the downloaded file.Noor et al. (2022), IJELS, 1 (2)
+Received: 24 November 2022
+Accepted: 16 December 2022
+Sampling Method | Descriptive Research
+Simple Random Sampling
+Shagofah Noor, Herat University; Omid Tajik, Herat University
+Jawad Golzar, Herat University
+Abstract
+Simple random sampling is a widely utilized sampling method in quantitative studies with survey
+instruments. It is asserted that simple random sampling is favorable in homogeneous and
+uniformly selected populations. In this selection method, all the individuals have an equal
+opportunity to participate in the study where the selection process is entirely based on luck. The
+simple random sampling has benefits and drawbacks associated with it. It ensures unbiased,
+representative, and equal probability of the population; on the other hand, it can be
+cumbersome, rarely supported with readily available list of population, and challenging when
+population is heterogeneous and widely dispersed.
+Keywords: Random, population, sample, probability sampling, pros and cons
+Introduction
+The population is the entire group of subjects the researcher wants information on (Stockemer,
+2019); ideally, it is preferable to include whole population to investigate an issue; however,
+“practically, it is always not possible to study the entire population” (Acharya, 2013, p. 330). The
+size of the population under consideration is typically taken into account when determining an
+acceptable sample size. Therefore, we attempt to select a ‘sample’ that represents the population
+under study. Researchers will use sampling as a technique (procedure or device) to systematically
+choose a smaller group of representative objects or people (a subset) from a pre-defined
+population to act as subjects (data sources) for observation or experimentation in accordance with
+the goals of their study (Sharma, 2017). It is significantly important for the researcher to make
+sure that the selected sample is neither too big nor two small. Contrary to popular belief, samples
+should not be too small or too large in the ideal scenario (Faber & Fonseca, 2014). According to
+Miles & Huberman (1994), it is crucial to be specific about what you intent to study and why you
+are inclined to conduct that study. “Otherwise you may suffer the pitfalls of vacuum-cleaner-like
+78 | P age
+Corresponding author: Jawad Golzar Email: jawad.golzar@yahoo.com
+© IJELS 2022. All rights reserved.International Journal of Education & Language Studies
+collection of every datum. You may suffer accumulation of more data than there is time to analyze
+and detours into alluring associated questions that waste time, goodwill and analytic opportunity”
+(p. 3).
+Simple random sampling requires the researcher to define carefully the population from
+which the sample is drawn. It is necessary to provide a framework for inclusion and exclusion of
+population; for instance, Cohen et al. (2018) assert that “it is little help in trying to generalize to
+all the males and females in a school if only males are taken as the population from which the
+sample is drawn” (p. 215). This article mainly focuses on defining simple random sampling and
+explaining its pros and cons in scientific research. The following research questions guide this
+study:
+1. What is simple random sampling in scientific research?
+2. How can researchers frame simple random sampling?
+3. What are the inherent benefits and drawbacks of simple random sampling in scientific
+research?
+Defining Simple Random Sampling in a Scientific Research
+Simple random sampling is an extensively used sampling method in scientific research. Simple
+random sampling is selected for populations which are highly homogenous where the members
+of the research are randomly selected to participate in the research (Bhardwaj, 2019). Simple
+Random Sampling is the “simplest and most common method of selecting a sample, in which the
+sample is selected unit by unit, with equal probability of selection for each unit at each draw”
+(Singh, 2003, p. 71). According to Acharya (2013), “In this method, every individual has an equal
+chance of being selected in the sample from the population” (p. 330). Simple random sampling
+makes sure that every person in a population has an equal probability of being chosen as a
+response (Thomas, 2020). Moreover, in this method, researcher develops a numeric list of all
+sample size and by using computer program generate random numbers when they deal with large
+sample size (Rahi, 2017; Omair, 2014) which will provide them a list of population for the intended
+research project.
+Due to likelihood and chance, the sample should include individuals who share traits with
+the general population, including some who are elderly, some who are young, tall, some who are
+short, fit, some who are unfit, wealthy, and some who are poor (Cohen et al., 2018). Thus, in simple
+random sampling, the researcher needs to specify the general common characteristics of the
+individuals that can participate in the study.
+Framing Simple Random Sampling
+Simple random sampling is often utilized in surveys and quantitative research designs (Rahi, 2017).
+As in simple random sampling individuals get equal opportunity to participate in the study. It is
+favorable in studies where the population is homogenous and population of the study are
+uniformly distributed.
+Ansar et al. (2017) conducted a study in Gorontalo, Indonesia, where they collected data
+from all high school English teachers, numbering 123. The study intended to find out if there was
+79 | P ageNoor et al.
+a direct positive influence of school culture on the performance of high school English teachers in
+Gorontalo province or not. The researchers opted for simple random sampling for their study
+where they had pre-determined criteria of having a) all high school English teachers, b) be current
+teachers, c) be willing to answer the survey questions.
+Benefits and Drawbacks of Simple Random Sampling
+As in any sampling method, there are benefits and drawback in opting for simple random sampling
+as well. Simple random sampling is a widely utilized sampling method in studies with large number
+of participants. Since in simple random sampling data selection depends on luck, it is possible that
+the data obtained from the research may lead to precise generalizable results. According to Best
+and Kahn (2016), simple random sampling is a cumbersome and rarely used procedure in research
+design. Moreover, it is asserted that this sampling method is efficient when the population is
+homogeneous and the list of the population intended for the study is readily available (Cohen et
+al., 2018; Barreiro & Albandoz, 2001). In addition, random selection can easily result in subsets
+that do not adequately cover the data in more complicated (non-uniformly distributed) datasets,
+which will result in a high variance in the estimation of the model error (Reitermanova’, 2010).
+Furthermore, when the population's size in a particular demographic is not defined, then this
+method cannot run properly. And for this, different areas such as research on animals are in the
+field area; this method is not that useful (Rahman et al., 2022).
+On the other hand, ideally, such randomization techniques give every individual in the population
+the same chance to be selected in the sample (Stockemer, 2019). It is also an unbiased and
+impartial selection method (Sharma, 2017; Fink, 2003); when cautiously designed, the sample can
+be representative of the whole population. Stockemer asserts that randomization helps to offset
+the confounding effects of known and unknown factors by randomly choosing cases (2019) which
+may lead to a more considerate sample selection process for the intended study.
+Table 1
+Simple Random Sampling Technique Benefits and Drawbacks
+No Benefits Drawbacks
+1 Impartial random selection are crucial This procedure is cumbersome and is rarely
+(Sharma, 2017; Fink, 2003). used (Best and Kahn, 2016).
+2 Representativeness of the population A complete list of the population is needed
+and this is not always readily available
+(Cohen et al., 2018).
+3 Randomization helps to offset the Difficult to use when the population is widely
+confounding effects of known and dispersed and heterogeneous (Barreiro &
+unknown factors (Stockemer, 2019). Albandoz, 2001).
+4 Each sample has an equal probability of Sampling error (West, 2016).
+selection (Reitermanova’, 2010).
+80 | P ageInternational Journal of Education & Language Studies
+Closing Remarks
+Simple random sampling is a probability sampling method which provides researchers with an
+opportunity to select participants for their study randomly and without a bias. The findings of this
+paper proclaim that simple random sampling is favorable and supportive for quantitative studies.
+Simple random sampling provides impartial, representative, and offset confounding effects of
+known and unknown factors for the population of the study; it is also subject to sampling error,
+unwieldly procedure, and problematic with heterogeneous and dispersed population.
+Funding
+The authors received no direct funding for this research.
+About the Authors
+Shagofah Noor completed her degree in Teaching English as a Second Language (TESL) from
+Northern Arizona University in 2018 through Fulbright scholarship. She has been teaching
+English major undergraduates at Herat University, Afghanistan, for last eight years. She has
+carried out multiple research projects, most of which were published locally. She is interested in
+exploring reading and speaking skills, and she is inclined towards studying pragmatics as well.
+Therefore, the current research project is aligned with the previous research projects.
+Omid Tajik has a master degree in Teaching English as a Second Language (TESL) from Universiti
+Teknologi Malaysia (UTM). He is a lecturer at English department, Faculty of Languages and
+Literature, Herat University, Afghanistan. His research interests are educational technology,
+teaching English as a second language (TESL), technology enhanced language learning (TELL),
+computer assisted language learning (CALL), online teaching and learning, etc.
+Jawad Golzar is a faculty member at the English Department, Herat University, Afghanistan. He
+holds a master’s degree in TESOL, and he has obtained it through Fulbright Scholarship from
+Indiana University of Pennsylvania, USA. He has participated in numerous academic, personal
+and professional development programs within the past few years. His research interests include
+teacher identity, educational technology, writing self-efficacy, and issues related to giving voices
+to others.
+References
+Acharya, A. S., Prakash, A., Saxena, P., & Nigam, A. (2013). Sampling: Why and how of it. Indian
+Journal of Medical Specialties, 4(2), 330-333. DOI: 10.7713/ijms.2013.0032
+81 | P ageNoor et al.
+Ansar, L. A., Arifin, D. Y., & Dengo, Y. J. (2017). The influence of school culture on the performance
+of high school English teachers in Gorontalo province. Int J Educ Res, 5(10), 35-47.
+https://www.ijern.com/journal/2017/October-2017/04.pdf
+Barreiro, P. L., & Albandoz, J. P. (2001). Population and sample. Sampling
+techniques. Management mathematics for European schools, 1(1), 1-18.
+http://optimierung.mathematik.uni-kl.de/mamaeusch/veroeffentlichungen/ver_texte
+/sampling_en.pdf
+Best, J. W., & Kahn, J. V. (2016). Research in education. Pearson Education India.
+Bhardwaj P. (2019). Types of sampling in research. Journal of the Practice of Cardiovascular
+Sciences, 5(3), 157. DOI: 10.4103/jpcs.jpcs_62_19
+Cohen, L., Manion, L., & Morrison, K. (2002). Research methods in education. Routledge.
+Fink, A. (2003). How to sample in surveys. Sage.
+Omair, A. (2014). Sample size estimation and sampling techniques for selecting a representative
+sample. Journal of Health specialties, 2(4), 142. DOI: 10.4103/1658-600X.142783
+Rahi, S. (2017). Research design and methods: A systematic review of research paradigms,
+sampling issues and instruments development. International Journal of Economics &
+Management Sciences, 6(2), 1-5. DOI: 10.4172/2162-6359.1000403
+Rahman, M. M., Tabash, M. I., Salamzadeh, A., Abduli, S., & Rahaman, M. S. (2022). Sampling
+techniques (probability) for quantitative social science researchers: conceptual guidelines
+with examples. Seeu Review, 17(1), 42-51. DOI: 10.2478/seeur-2022-0023
+Reitermanova, Z. (2010, June). Data splitting. In WDS (Vol. 10, pp. 31-36). Prague:Matfyzpress.
+Sharma, G. (2017). Pros and cons of different sampling techniques. International journal of
+applied research, 3(7), 749-752. https://www.allresearchjournal.com/archives/2017/
+vol3issue7/PartK/3-7-69-542.pdf
+Singh, S. (2003). Simple random sampling. In advanced sampling theory with applications (pp.
+71-136). Springer, Dordrecht.
+Stockemer, D., Stockemer, G., & Glaeser. (2019). Quantitative methods for the social
+sciences (Vol. 50, p. 185). Quantitative methods for the social sciences: Springer
+International Publishing.
+West, P. W. (2016). Simple random sampling of individual items in the absence of a sampling
+frame that lists the individuals. New Zealand journal of forestry science, 46(1), 1-7.
+DOI: 10.1186/s40490-016-0071-1
+82 | P age
+View publication statsSee discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/366390022
+Simple Random Sampling
+Article · December 2022
+DOI: 10.22034/ijels.2022.162982
+CITATIONS READS
+195 187,974
+3 authors:
+Shagofah Noor Omid Tajik
+Herat University University of Technology Malaysia
+6 PUBLICATIONS 383 CITATIONS 10 PUBLICATIONS 380 CITATIONS
+SEE PROFILE SEE PROFILE
+Jawad Golzar
+Herat University
+19 PUBLICATIONS 526 CITATIONS
+SEE PROFILE
+All content following this page was uploaded by Jawad Golzar on 18 December 2022.
+The user has requested enhancement of the downloaded file.Noor et al. (2022), IJELS, 1 (2)
+Received: 24 November 2022
+Accepted: 16 December 2022
+Sampling Method | Descriptive Research
+Simple Random Sampling
+Shagofah Noor, Herat University; Omid Tajik, Herat University
+Jawad Golzar, Herat University
+Abstract
+Simple random sampling is a widely utilized sampling method in quantitative studies with survey
+instruments. It is asserted that simple random sampling is favorable in homogeneous and
+uniformly selected populations. In this selection method, all the individuals have an equal
+opportunity to participate in the study where the selection process is entirely based on luck. The
+simple random sampling has benefits and drawbacks associated with it. It ensures unbiased,
+representative, and equal probability of the population; on the other hand, it can be
+cumbersome, rarely supported with readily available list of population, and challenging when
+population is heterogeneous and widely dispersed.
+Keywords: Random, population, sample, probability sampling, pros and cons
+Introduction
+The population is the entire group of subjects the researcher wants information on (Stockemer,
+2019); ideally, it is preferable to include whole population to investigate an issue; however,
+“practically, it is always not possible to study the entire population” (Acharya, 2013, p. 330). The
+size of the population under consideration is typically taken into account when determining an
+acceptable sample size. Therefore, we attempt to select a ‘sample’ that represents the population
+under study. Researchers will use sampling as a technique (procedure or device) to systematically
+choose a smaller group of representative objects or people (a subset) from a pre-defined
+population to act as subjects (data sources) for observation or experimentation in accordance with
+the goals of their study (Sharma, 2017). It is significantly important for the researcher to make
+sure that the selected sample is neither too big nor two small. Contrary to popular belief, samples
+should not be too small or too large in the ideal scenario (Faber & Fonseca, 2014). According to
+Miles & Huberman (1994), it is crucial to be specific about what you intent to study and why you
+are inclined to conduct that study. “Otherwise you may suffer the pitfalls of vacuum-cleaner-like
+78 | P age
+Corresponding author: Jawad Golzar Email: jawad.golzar@yahoo.com
+© IJELS 2022. All rights reserved.International Journal of Education & Language Studies
+collection of every datum. You may suffer accumulation of more data than there is time to analyze
+and detours into alluring associated questions that waste time, goodwill and analytic opportunity”
+(p. 3).
+Simple random sampling requires the researcher to define carefully the population from
+which the sample is drawn. It is necessary to provide a framework for inclusion and exclusion of
+population; for instance, Cohen et al. (2018) assert that “it is little help in trying to generalize to
+all the males and females in a school if only males are taken as the population from which the
+sample is drawn” (p. 215). This article mainly focuses on defining simple random sampling and
+explaining its pros and cons in scientific research. The following research questions guide this
+study:
+1. What is simple random sampling in scientific research?
+2. How can researchers frame simple random sampling?
+3. What are the inherent benefits and drawbacks of simple random sampling in scientific
+research?
+Defining Simple Random Sampling in a Scientific Research
+Simple random sampling is an extensively used sampling method in scientific research. Simple
+random sampling is selected for populations which are highly homogenous where the members
+of the research are randomly selected to participate in the research (Bhardwaj, 2019). Simple
+Random Sampling is the “simplest and most common method of selecting a sample, in which the
+sample is selected unit by unit, with equal probability of selection for each unit at each draw”
+(Singh, 2003, p. 71). According to Acharya (2013), “In this method, every individual has an equal
+chance of being selected in the sample from the population” (p. 330). Simple random sampling
+makes sure that every person in a population has an equal probability of being chosen as a
+response (Thomas, 2020). Moreover, in this method, researcher develops a numeric list of all
+sample size and by using computer program generate random numbers when they deal with large
+sample size (Rahi, 2017; Omair, 2014) which will provide them a list of population for the intended
+research project.
+Due to likelihood and chance, the sample should include individuals who share traits with
+the general population, including some who are elderly, some who are young, tall, some who are
+short, fit, some who are unfit, wealthy, and some who are poor (Cohen et al., 2018). Thus, in simple
+random sampling, the researcher needs to specify the general common characteristics of the
+individuals that can participate in the study.
+Framing Simple Random Sampling
+Simple random sampling is often utilized in surveys and quantitative research designs (Rahi, 2017).
+As in simple random sampling individuals get equal opportunity to participate in the study. It is
+favorable in studies where the population is homogenous and population of the study are
+uniformly distributed.
+Ansar et al. (2017) conducted a study in Gorontalo, Indonesia, where they collected data
+from all high school English teachers, numbering 123. The study intended to find out if there was
+79 | P ageNoor et al.
+a direct positive influence of school culture on the performance of high school English teachers in
+Gorontalo province or not. The researchers opted for simple random sampling for their study
+where they had pre-determined criteria of having a) all high school English teachers, b) be current
+teachers, c) be willing to answer the survey questions.
+Benefits and Drawbacks of Simple Random Sampling
+As in any sampling method, there are benefits and drawback in opting for simple random sampling
+as well. Simple random sampling is a widely utilized sampling method in studies with large number
+of participants. Since in simple random sampling data selection depends on luck, it is possible that
+the data obtained from the research may lead to precise generalizable results. According to Best
+and Kahn (2016), simple random sampling is a cumbersome and rarely used procedure in research
+design. Moreover, it is asserted that this sampling method is efficient when the population is
+homogeneous and the list of the population intended for the study is readily available (Cohen et
+al., 2018; Barreiro & Albandoz, 2001). In addition, random selection can easily result in subsets
+that do not adequately cover the data in more complicated (non-uniformly distributed) datasets,
+which will result in a high variance in the estimation of the model error (Reitermanova’, 2010).
+Furthermore, when the population's size in a particular demographic is not defined, then this
+method cannot run properly. And for this, different areas such as research on animals are in the
+field area; this method is not that useful (Rahman et al., 2022).
+On the other hand, ideally, such randomization techniques give every individual in the population
+the same chance to be selected in the sample (Stockemer, 2019). It is also an unbiased and
+impartial selection method (Sharma, 2017; Fink, 2003); when cautiously designed, the sample can
+be representative of the whole population. Stockemer asserts that randomization helps to offset
+the confounding effects of known and unknown factors by randomly choosing cases (2019) which
+may lead to a more considerate sample selection process for the intended study.
+Table 1
+Simple Random Sampling Technique Benefits and Drawbacks
+No Benefits Drawbacks
+1 Impartial random selection are crucial This procedure is cumbersome and is rarely
+(Sharma, 2017; Fink, 2003). used (Best and Kahn, 2016).
+2 Representativeness of the population A complete list of the population is needed
+and this is not always readily available
+(Cohen et al., 2018).
+3 Randomization helps to offset the Difficult to use when the population is widely
+confounding effects of known and dispersed and heterogeneous (Barreiro &
+unknown factors (Stockemer, 2019). Albandoz, 2001).
+4 Each sample has an equal probability of Sampling error (West, 2016).
+selection (Reitermanova’, 2010).
+80 | P ageInternational Journal of Education & Language Studies
+Closing Remarks
+Simple random sampling is a probability sampling method which provides researchers with an
+opportunity to select participants for their study randomly and without a bias. The findings of this
+paper proclaim that simple random sampling is favorable and supportive for quantitative studies.
+Simple random sampling provides impartial, representative, and offset confounding effects of
+known and unknown factors for the population of the study; it is also subject to sampling error,
+unwieldly procedure, and problematic with heterogeneous and dispersed population.
+Funding
+The authors received no direct funding for this research.
+About the Authors
+Shagofah Noor completed her degree in Teaching English as a Second Language (TESL) from
+Northern Arizona University in 2018 through Fulbright scholarship. She has been teaching
+English major undergraduates at Herat University, Afghanistan, for last eight years. She has
+carried out multiple research projects, most of which were published locally. She is interested in
+exploring reading and speaking skills, and she is inclined towards studying pragmatics as well.
+Therefore, the current research project is aligned with the previous research projects.
+Omid Tajik has a master degree in Teaching English as a Second Language (TESL) from Universiti
+Teknologi Malaysia (UTM). He is a lecturer at English department, Faculty of Languages and
+Literature, Herat University, Afghanistan. His research interests are educational technology,
+teaching English as a second language (TESL), technology enhanced language learning (TELL),
+computer assisted language learning (CALL), online teaching and learning, etc.
+Jawad Golzar is a faculty member at the English Department, Herat University, Afghanistan. He
+holds a master’s degree in TESOL, and he has obtained it through Fulbright Scholarship from
+Indiana University of Pennsylvania, USA. He has participated in numerous academic, personal
+and professional development programs within the past few years. His research interests include
+teacher identity, educational technology, writing self-efficacy, and issues related to giving voices
+to others.
+References
+Acharya, A. S., Prakash, A., Saxena, P., & Nigam, A. (2013). Sampling: Why and how of it. Indian
+Journal of Medical Specialties, 4(2), 330-333. DOI: 10.7713/ijms.2013.0032
+81 | P ageNoor et al.
+Ansar, L. A., Arifin, D. Y., & Dengo, Y. J. (2017). The influence of school culture on the performance
+of high school English teachers in Gorontalo province. Int J Educ Res, 5(10), 35-47.
+https://www.ijern.com/journal/2017/October-2017/04.pdf
+Barreiro, P. L., & Albandoz, J. P. (2001). Population and sample. Sampling
+techniques. Management mathematics for European schools, 1(1), 1-18.
+http://optimierung.mathematik.uni-kl.de/mamaeusch/veroeffentlichungen/ver_texte
+/sampling_en.pdf
+Best, J. W., & Kahn, J. V. (2016). Research in education. Pearson Education India.
+Bhardwaj P. (2019). Types of sampling in research. Journal of the Practice of Cardiovascular
+Sciences, 5(3), 157. DOI: 10.4103/jpcs.jpcs_62_19
+Cohen, L., Manion, L., & Morrison, K. (2002). Research methods in education. Routledge.
+Fink, A. (2003). How to sample in surveys. Sage.
+Omair, A. (2014). Sample size estimation and sampling techniques for selecting a representative
+sample. Journal of Health specialties, 2(4), 142. DOI: 10.4103/1658-600X.142783
+Rahi, S. (2017). Research design and methods: A systematic review of research paradigms,
+sampling issues and instruments development. International Journal of Economics &
+Management Sciences, 6(2), 1-5. DOI: 10.4172/2162-6359.1000403
+Rahman, M. M., Tabash, M. I., Salamzadeh, A., Abduli, S., & Rahaman, M. S. (2022). Sampling
+techniques (probability) for quantitative social science researchers: conceptual guidelines
+with examples. Seeu Review, 17(1), 42-51. DOI: 10.2478/seeur-2022-0023
+Reitermanova, Z. (2010, June). Data splitting. In WDS (Vol. 10, pp. 31-36). Prague:Matfyzpress.
+Sharma, G. (2017). Pros and cons of different sampling techniques. International journal of
+applied research, 3(7), 749-752. https://www.allresearchjournal.com/archives/2017/
+vol3issue7/PartK/3-7-69-542.pdf
+Singh, S. (2003). Simple random sampling. In advanced sampling theory with applications (pp.
+71-136). Springer, Dordrecht.
+Stockemer, D., Stockemer, G., & Glaeser. (2019). Quantitative methods for the social
+sciences (Vol. 50, p. 185). Quantitative methods for the social sciences: Springer
+International Publishing.
+West, P. W. (2016). Simple random sampling of individual items in the absence of a sampling
+frame that lists the individuals. New Zealand journal of forestry science, 46(1), 1-7.
+DOI: 10.1186/s40490-016-0071-1
+82 | P age
+View publication statsSee discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/366390022
+Simple Random Sampling
+Article · December 2022
+DOI: 10.22034/ijels.2022.162982
+CITATIONS READS
+195 187,974
+3 authors:
+Shagofah Noor Omid Tajik
+Herat University University of Technology Malaysia
+6 PUBLICATIONS 383 CITATIONS 10 PUBLICATIONS 380 CITATIONS
+SEE PROFILE SEE PROFILE
+Jawad Golzar
+Herat University
+19 PUBLICATIONS 526 CITATIONS
+SEE PROFILE
+All content following this page was uploaded by Jawad Golzar on 18 December 2022.
+The user has requested enhancement of the downloaded file.Noor et al. (2022), IJELS, 1 (2)
+Received: 24 November 2022
+Accepted: 16 December 2022
+Sampling Method | Descriptive Research
+Simple Random Sampling
+Shagofah Noor, Herat University; Omid Tajik, Herat University
+Jawad Golzar, Herat University
+Abstract
+Simple random sampling is a widely utilized sampling method in quantitative studies with survey
+instruments. It is asserted that simple random sampling is favorable in homogeneous and
+uniformly selected populations. In this selection method, all the individuals have an equal
+opportunity to participate in the study where the selection process is entirely based on luck. The
+simple random sampling has benefits and drawbacks associated with it. It ensures unbiased,
+representative, and equal probability of the population; on the other hand, it can be
+cumbersome, rarely supported with readily available list of population, and challenging when
+population is heterogeneous and widely dispersed.
+Keywords: Random, population, sample, probability sampling, pros and cons
+Introduction
+The population is the entire group of subjects the researcher wants information on (Stockemer,
+2019); ideally, it is preferable to include whole population to investigate an issue; however,
+“practically, it is always not possible to study the entire population” (Acharya, 2013, p. 330). The
+size of the population under consideration is typically taken into account when determining an
+acceptable sample size. Therefore, we attempt to select a ‘sample’ that represents the population
+under study. Researchers will use sampling as a technique (procedure or device) to systematically
+choose a smaller group of representative objects or people (a subset) from a pre-defined
+population to act as subjects (data sources) for observation or experimentation in accordance with
+the goals of their study (Sharma, 2017). It is significantly important for the researcher to make
+sure that the selected sample is neither too big nor two small. Contrary to popular belief, samples
+should not be too small or too large in the ideal scenario (Faber & Fonseca, 2014). According to
+Miles & Huberman (1994), it is crucial to be specific about what you intent to study and why you
+are inclined to conduct that study. “Otherwise you may suffer the pitfalls of vacuum-cleaner-like
+78 | P age
+Corresponding author: Jawad Golzar Email: jawad.golzar@yahoo.com
+© IJELS 2022. All rights reserved.International Journal of Education & Language Studies
+collection of every datum. You may suffer accumulation of more data than there is time to analyze
+and detours into alluring associated questions that waste time, goodwill and analytic opportunity”
+(p. 3).
+Simple random sampling requires the researcher to define carefully the population from
+which the sample is drawn. It is necessary to provide a framework for inclusion and exclusion of
+population; for instance, Cohen et al. (2018) assert that “it is little help in trying to generalize to
+all the males and females in a school if only males are taken as the population from which the
+sample is drawn” (p. 215). This article mainly focuses on defining simple random sampling and
+explaining its pros and cons in scientific research. The following research questions guide this
+study:
+1. What is simple random sampling in scientific research?
+2. How can researchers frame simple random sampling?
+3. What are the inherent benefits and drawbacks of simple random sampling in scientific
+research?
+Defining Simple Random Sampling in a Scientific Research
+Simple random sampling is an extensively used sampling method in scientific research. Simple
+random sampling is selected for populations which are highly homogenous where the members
+of the research are randomly selected to participate in the research (Bhardwaj, 2019). Simple
+Random Sampling is the “simplest and most common method of selecting a sample, in which the
+sample is selected unit by unit, with equal probability of selection for each unit at each draw”
+(Singh, 2003, p. 71). According to Acharya (2013), “In this method, every individual has an equal
+chance of being selected in the sample from the population” (p. 330). Simple random sampling
+makes sure that every person in a population has an equal probability of being chosen as a
+response (Thomas, 2020). Moreover, in this method, researcher develops a numeric list of all
+sample size and by using computer program generate random numbers when they deal with large
+sample size (Rahi, 2017; Omair, 2014) which will provide them a list of population for the intended
+research project.
+Due to likelihood and chance, the sample should include individuals who share traits with
+the general population, including some who are elderly, some who are young, tall, some who are
+short, fit, some who are unfit, wealthy, and some who are poor (Cohen et al., 2018). Thus, in simple
+random sampling, the researcher needs to specify the general common characteristics of the
+individuals that can participate in the study.
+Framing Simple Random Sampling
+Simple random sampling is often utilized in surveys and quantitative research designs (Rahi, 2017).
+As in simple random sampling individuals get equal opportunity to participate in the study. It is
+favorable in studies where the population is homogenous and population of the study are
+uniformly distributed.
+Ansar et al. (2017) conducted a study in Gorontalo, Indonesia, where they collected data
+from all high school English teachers, numbering 123. The study intended to find out if there was
+79 | P ageNoor et al.
+a direct positive influence of school culture on the performance of high school English teachers in
+Gorontalo province or not. The researchers opted for simple random sampling for their study
+where they had pre-determined criteria of having a) all high school English teachers, b) be current
+teachers, c) be willing to answer the survey questions.
+Benefits and Drawbacks of Simple Random Sampling
+As in any sampling method, there are benefits and drawback in opting for simple random sampling
+as well. Simple random sampling is a widely utilized sampling method in studies with large number
+of participants. Since in simple random sampling data selection depends on luck, it is possible that
+the data obtained from the research may lead to precise generalizable results. According to Best
+and Kahn (2016), simple random sampling is a cumbersome and rarely used procedure in research
+design. Moreover, it is asserted that this sampling method is efficient when the population is
+homogeneous and the list of the population intended for the study is readily available (Cohen et
+al., 2018; Barreiro & Albandoz, 2001). In addition, random selection can easily result in subsets
+that do not adequately cover the data in more complicated (non-uniformly distributed) datasets,
+which will result in a high variance in the estimation of the model error (Reitermanova’, 2010).
+Furthermore, when the population's size in a particular demographic is not defined, then this
+method cannot run properly. And for this, different areas such as research on animals are in the
+field area; this method is not that useful (Rahman et al., 2022).
+On the other hand, ideally, such randomization techniques give every individual in the population
+the same chance to be selected in the sample (Stockemer, 2019). It is also an unbiased and
+impartial selection method (Sharma, 2017; Fink, 2003); when cautiously designed, the sample can
+be representative of the whole population. Stockemer asserts that randomization helps to offset
+the confounding effects of known and unknown factors by randomly choosing cases (2019) which
+may lead to a more considerate sample selection process for the intended study.
+Table 1
+Simple Random Sampling Technique Benefits and Drawbacks
+No Benefits Drawbacks
+1 Impartial random selection are crucial This procedure is cumbersome and is rarely
+(Sharma, 2017; Fink, 2003). used (Best and Kahn, 2016).
+2 Representativeness of the population A complete list of the population is needed
+and this is not always readily available
+(Cohen et al., 2018).
+3 Randomization helps to offset the Difficult to use when the population is widely
+confounding effects of known and dispersed and heterogeneous (Barreiro &
+unknown factors (Stockemer, 2019). Albandoz, 2001).
+4 Each sample has an equal probability of Sampling error (West, 2016).
+selection (Reitermanova’, 2010).
+80 | P ageInternational Journal of Education & Language Studies
+Closing Remarks
+Simple random sampling is a probability sampling method which provides researchers with an
+opportunity to select participants for their study randomly and without a bias. The findings of this
+paper proclaim that simple random sampling is favorable and supportive for quantitative studies.
+Simple random sampling provides impartial, representative, and offset confounding effects of
+known and unknown factors for the population of the study; it is also subject to sampling error,
+unwieldly procedure, and problematic with heterogeneous and dispersed population.
+Funding
+The authors received no direct funding for this research.
+About the Authors
+Shagofah Noor completed her degree in Teaching English as a Second Language (TESL) from
+Northern Arizona University in 2018 through Fulbright scholarship. She has been teaching
+English major undergraduates at Herat University, Afghanistan, for last eight years. She has
+carried out multiple research projects, most of which were published locally. She is interested in
+exploring reading and speaking skills, and she is inclined towards studying pragmatics as well.
+Therefore, the current research project is aligned with the previous research projects.
+Omid Tajik has a master degree in Teaching English as a Second Language (TESL) from Universiti
+Teknologi Malaysia (UTM). He is a lecturer at English department, Faculty of Languages and
+Literature, Herat University, Afghanistan. His research interests are educational technology,
+teaching English as a second language (TESL), technology enhanced language learning (TELL),
+computer assisted language learning (CALL), online teaching and learning, etc.
+Jawad Golzar is a faculty member at the English Department, Herat University, Afghanistan. He
+holds a master’s degree in TESOL, and he has obtained it through Fulbright Scholarship from
+Indiana University of Pennsylvania, USA. He has participated in numerous academic, personal
+and professional development programs within the past few years. His research interests include
+teacher identity, educational technology, writing self-efficacy, and issues related to giving voices
+to others.
+References
+Acharya, A. S., Prakash, A., Saxena, P., & Nigam, A. (2013). Sampling: Why and how of it. Indian
+Journal of Medical Specialties, 4(2), 330-333. DOI: 10.7713/ijms.2013.0032
+81 | P ageNoor et al.
+Ansar, L. A., Arifin, D. Y., & Dengo, Y. J. (2017). The influence of school culture on the performance
+of high school English teachers in Gorontalo province. Int J Educ Res, 5(10), 35-47.
+https://www.ijern.com/journal/2017/October-2017/04.pdf
+Barreiro, P. L., & Albandoz, J. P. (2001). Population and sample. Sampling
+techniques. Management mathematics for European schools, 1(1), 1-18.
+http://optimierung.mathematik.uni-kl.de/mamaeusch/veroeffentlichungen/ver_texte
+/sampling_en.pdf
+Best, J. W., & Kahn, J. V. (2016). Research in education. Pearson Education India.
+Bhardwaj P. (2019). Types of sampling in research. Journal of the Practice of Cardiovascular
+Sciences, 5(3), 157. DOI: 10.4103/jpcs.jpcs_62_19
+Cohen, L., Manion, L., & Morrison, K. (2002). Research methods in education. Routledge.
+Fink, A. (2003). How to sample in surveys. Sage.
+Omair, A. (2014). Sample size estimation and sampling techniques for selecting a representative
+sample. Journal of Health specialties, 2(4), 142. DOI: 10.4103/1658-600X.142783
+Rahi, S. (2017). Research design and methods: A systematic review of research paradigms,
+sampling issues and instruments development. International Journal of Economics &
+Management Sciences, 6(2), 1-5. DOI: 10.4172/2162-6359.1000403
+Rahman, M. M., Tabash, M. I., Salamzadeh, A., Abduli, S., & Rahaman, M. S. (2022). Sampling
+techniques (probability) for quantitative social science researchers: conceptual guidelines
+with examples. Seeu Review, 17(1), 42-51. DOI: 10.2478/seeur-2022-0023
+Reitermanova, Z. (2010, June). Data splitting. In WDS (Vol. 10, pp. 31-36). Prague:Matfyzpress.
+Sharma, G. (2017). Pros and cons of different sampling techniques. International journal of
+applied research, 3(7), 749-752. https://www.allresearchjournal.com/archives/2017/
+vol3issue7/PartK/3-7-69-542.pdf
+Singh, S. (2003). Simple random sampling. In advanced sampling theory with applications (pp.
+71-136). Springer, Dordrecht.
+Stockemer, D., Stockemer, G., & Glaeser. (2019). Quantitative methods for the social
+sciences (Vol. 50, p. 185). Quantitative methods for the social sciences: Springer
+International Publishing.
+West, P. W. (2016). Simple random sampling of individual items in the absence of a sampling
+frame that lists the individuals. New Zealand journal of forestry science, 46(1), 1-7.
+DOI: 10.1186/s40490-016-0071-1
+82 | P age
+View publication stats
